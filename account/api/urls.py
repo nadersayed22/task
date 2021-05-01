@@ -1,14 +1,11 @@
 from django.urls import path, include
-from .views import UserViewSet
+from .views import UserListCreateAPIView, UserRetrieveUpdateDestroyAPIView
 
-from rest_framework import routers
-
-
-router = routers.DefaultRouter()
-router.register(r'accounts', UserViewSet)
 
 urlpatterns = [
-    path('',include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')
+   path('', UserListCreateAPIView.as_view(),),
+    path('<int:pk>/', UserRetrieveUpdateDestroyAPIView.as_view(),),
+    path('signup/', UserListCreateAPIView.as_view(),)
+    #path('login/', UserLoginObtainView.as_view(), name="login"),
     
 ]
