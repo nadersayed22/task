@@ -7,10 +7,12 @@ Develop a simple web application of two webpages, The first page should be havin
 ### go to task rebo and clone code
 
 1.Create & Run a virtual environment for this app.
+      '''
       Open your terminal, go to the task app's cloned repo's directory, and run this command
       sudo apt-get install python3-pip
       sudo pip3 install virtualenv
       virtualenv task
+      '''
 
 2.Make sure you installed virtualenv
       pip install --upgrade virtualenv
