@@ -1,10 +1,10 @@
-#TASK 
+# TASK 
 
 Develop a simple web application of two webpages, The first page should be having a simple login interface, The second one should be having a table.
 
-##usage
+## usage
 
-###go to task rebo and clone code
+### go to task rebo and clone code
 
 1.Create & Run a virtual environment for this app.
     Open your terminal, go to the task app's cloned repo's directory, and run this command
@@ -34,7 +34,7 @@ Develop a simple web application of two webpages, The first page should be havin
 
 
 ####use this links to router in project
-* admin panel
+*admin panel
     http://127.0.0.1:8000/admin/
 
 *list users or creat users api
