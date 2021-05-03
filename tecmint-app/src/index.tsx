@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 import 'react-app-polyfill/ie9'; // For IE 9-11 support
 import 'react-app-polyfill/stable';
 //import './polyfill';
-import './index.scss';
+import './index.css';
 import App from './App';
 //import ScrollToTop from './app/layout/ScrollToTop';
 

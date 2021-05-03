@@ -17,7 +17,10 @@
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "react-widgets": "^5.1.1",
     "reactstrap": "^8.9.0",
+    "typescript": "^4.2.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
