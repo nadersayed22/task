@@ -23,13 +23,13 @@ Develop a simple web application of two webpages, The first page should be havin
     pip install -r requirements.txt
 
 ### run migrations
-5.If you'll use my test db, you don't need this step.
+If you'll use my test db, you don't need this step.
     python manage.py makemigrations
     python manage.py migrate
     pyton manage.py createsuperuser
 
 
-6.Now, your configs are completed just run the application.
+5.Now, your configs are completed just run the application.
     python manage.py runserver
 
 
