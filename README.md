@@ -22,7 +22,7 @@ Develop a simple web application of two webpages, The first page should be havin
     From your terminal running your to_do_taskvenv, run the following command
     pip install -r requirements.txt
 
-####run migrations
+#### run migrations
 5.If you'll use my test db, you don't need this step.
     python manage.py makemigrations
     python manage.py migrate
@@ -33,7 +33,7 @@ Develop a simple web application of two webpages, The first page should be havin
     python manage.py runserver
 
 
-####use this links to router in project
+#### use this links to router in project
 *admin panel
     http://127.0.0.1:8000/admin/
 
