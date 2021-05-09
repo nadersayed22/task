@@ -41,31 +41,31 @@ If you'll use my test db, you don't need this step.
 
 
 ### use this links to router in project
-*admin panel
+* admin panel
 
       http://127.0.0.1:8000/admin/
 
-*list users or creat users api
+* list users or creat users api
 
       http://127.0.0.1:8000/api/
 
-*get user api
+* get user api
 
       http://127.0.0.1:8000/api/id
 
-*to login user 
+* to login user 
 
       http://127.0.0.1:8000/api/login/
 
-*to signup user 
+* to signup user 
 
       http://127.0.0.1:8000/api/signup/
 
-*to get JWT token
+* to get JWT token
 
       http://127.0.0.1:8000/api/token/
 
-*to refresh JWT token
+* to refresh JWT token
 
       http://127.0.0.1:8000/api/token/refresh/
 
